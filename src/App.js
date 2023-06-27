@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+//import Study01 from './components/Study01';
+//import React, {Component} from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return ( //JSX 문법!, <div> 태그로 안에있는 태그들을 감싸는거 잊지말기!
+    <div className = "App">
+      Hello, React!!
+      
     </div>
   );
 }
